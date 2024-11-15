@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "asset_type": "connection",
+    "name": "Sample DB",
+    "origin_country": "us",
+    "rov": {
+      "mode": 0
+    },
+    "resource_key": "0000:0000:0000:0000:0000:FFFF:3216:9DA3|50001|BLUDB",
+    "asset_category": "USER",
+    "created_at": "2024-11-15T12:18:12Z",
+    "created": 1731673092376,
+    "asset_id": "connection.SampleDB",
+    "asset_attributes": [
+      "connection"
+    ]
+  },
+  "entity": {
+    "connection": {
+      "datasource_type": "8c1a4480-1c29-4b33-9086-9cb799d7b157",
+      "data_source_definition_searchable": "db2w-ruggyab.us-south.db2w.cloud.ibm.com|50001|BLUDB",
+      "context": "source,target",
+      "properties": {
+        "database": "BLUDB",
+        "username_password_security": "default",
+        "port": "50001",
+        "host": "db2w-ruggyab.us-south.db2w.cloud.ibm.com",
+        "username_password_encryption": "default",
+        "ssl": "true"
+      },
+      "flags": [
+        "personal_credentials"
+      ]
+    }
+  },
+  "attachments": []
+}
